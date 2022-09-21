@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width" />
   <title>All Posts</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    
+  </style>
 </head>
 
 <body class="background">
   <header id="header">
-    <h1>Navigation Menu</h1>
-    <a href="index.html" class="button">Main Menu</a> <a href="post.html" class="button">Newest Post</a>
+    <h1 id="yellow">Navigation Menu</h1>
+    <a href="index.html" class="button">Main Menu</a> <a href="post.html" class="button">Newest Post</a> <a href="posts.html" class="button">All Posts</a>
     <a href="create.html" class="button">Create Post</a>
     <br />
     <br />
@@ -21,48 +24,50 @@
     </form>
   </header>
   <hr />
-  <table>
+  <div >
+  <table class="table">
     <thead>
-      <caption>
+      <caption id="yellow">
         Previous Posts
       </caption>
       <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Date Posted</th>
+        <th id="title">Title</th>
+        <th id="author">Author</th>
+        <th id="date">Date Posted</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a href="post.html" class="link">Sports</a></td>
-        <td>Alec Rodriguez</td>
-        <td>09/07/22</td>
+        <td id="title"><a href="post.html" class="link">Sports</a></td>
+        <td id="author">Alec Rodriguez</td>
+        <td id="date">09/07/22</td>
       </tr>
       <tr>
-        <td>Extracurricular</td>
-        <td>Alec Rodriguez</td>
-        <td>09/07/22</td>
+        <td id="title">Extracurricular</td>
+        <td id="author">Alec Rodriguez</td>
+        <td id="date">09/07/22</td>
       </tr>
       <tr>
-        <td>Academics</td>
-        <td>Alec Rodriguez</td>
-        <td>09/07/22</td>
+        <td id="title">Academics</td>
+        <td id="author">Alec Rodriguez</td>
+        <td id="date">09/07/22</td>
       </tr>
       <tr>
-        <td>Local Attractions</td>
-        <td>Alec Rodriguez</td>
-        <td>09/07/22</td>
+        <td id="title">Local Attractions</td>
+        <td id="author">Alec Rodriguez</td>
+        <td id="date">09/07/22</td>
       </tr>
       <tr>
-        <td>Facilities</td>
-        <td>Alec Rodriguez</td>
-        <td>09/07/22</td>
+        <td id="title">Facilities</td>
+        <td id="author">Alec Rodriguez</td>
+        <td id="date">09/07/22</td>
       </tr>
     </tbody>
   </table>
+  </div>
   <hr />
   <footer>
-    <p>Author: Alec Rodriguez</p>
+    <p id="yellow">Author: Alec Rodriguez</p>
     <p><a href="#header" class="button">Back to Top</a></p>
   </footer>
 </body>

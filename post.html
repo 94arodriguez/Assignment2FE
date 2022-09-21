@@ -10,8 +10,8 @@
 
 <body class="background">
   <header id="header">
-    <h1>Navigation Menu</h1>
-    <a href="index.html" class="button">Main Menu</a> <a href="posts.html" class="button">All Posts</a>
+    <h1 id="yellow">Navigation Menu</h1>
+    <a href="index.html" class="button">Main Menu</a> <a href="post.html" class="button">Newest Post</a> <a href="posts.html" class="button">All Posts</a>
     <a href="create.html" class="button">Create Post</a>
     <br />
     <br />
@@ -23,11 +23,11 @@
   <hr />
   <main>
     <figure>
-      <img src="images/football.jpeg" alt="Football on field" height="200" width="250" />
+      <img src="images/football.jpeg" alt="Football on field" height="200" width="250" class="centered"/>
       <figcaption>Fig 1. Football</figcaption>
     </figure>
     <hr />
-    <section>
+    <section class="centered">
       <h1>Latest Post</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
@@ -82,7 +82,7 @@
       </aside>
     </section>
     <hr />
-    <article>
+    <article class="centered">
       <h1>About WTAMU Football Program</h1>
       <blockquote cite="Wtamu.edu">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
@@ -191,7 +191,7 @@
         a doloribus in necessitatibus id eveniet, rerum similique eaque omnis?
       </blockquote>
       <details>
-        <summary><b>Roster</b></summary>
+        <summary id="author"><b>Roster</b></summary>
         <ul>
           <li><b>Joe:</b> Freshman</li>
           <li><b>Steve:</b> Freshman</li>
@@ -209,7 +209,7 @@
   </main>
   <hr />
   <footer>
-    <p>Author: Alec Rodriguez</p>
+    <p id="yellow">Author: Alec Rodriguez</p>
     <p><a href="#header" class="button">Back to Top</a></p>
   </footer>
 </body>
